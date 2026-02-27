@@ -25,8 +25,6 @@ But they ignore:
 Cities today optimize efficiency.  
 CarbonStop AI optimizes climate impact.
 
----
-
 #  The Solution
 
 CarbonStop AI introduces a carbon-aware AI control layer that dynamically adapts traffic signals based on:
@@ -41,8 +39,6 @@ When electricity generation is fossil-fuel heavy, the system aggressively minimi
 When the grid is cleaner, it balances efficiency and fairness.
 
 This transforms static traffic signals into programmable climate actors.
-
----
 
 #  Core Reward Function
 
@@ -60,8 +56,6 @@ Reward =
 
 This makes the system climate-aware, not just congestion-aware.
 
----
-
 #  Architecture Overview
 
 Traffic Simulation (SUMO)  
@@ -76,9 +70,8 @@ Emission & Fairness Evaluation
         ↓  
 Urban Climate Command Center Dashboard  
 
----
 
-# 🛠 Local Setup
+# Local Setup
 
 ## Clone Repo
 
@@ -86,6 +79,15 @@ Urban Climate Command Center Dashboard
 git clone [https://github.com/your-username/carbonstop-ai.git](https://github.com/vineeta07/HackforGreen.git)
 cd HackforGreen
 ```
+## Run Frontend
+
+```
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend: http://localhost:3000
 
 ## Run Backend
 
@@ -97,27 +99,14 @@ uvicorn app.main:app --reload
 
 Backend: http://localhost:8000
 
-## Run Frontend
 
-```
-cd frontend
-npm install
-npm run dev
-```
-
-Frontend: http://localhost:3000
-
----
-
-# 🧪 Demo Strategy
+# Demo Strategy
 
 1. Run baseline traffic simulation  
 2. Simulate carbon intensity spike  
 3. Show reward change  
 4. Show emission-aware adaptation  
 5. Highlight fairness improvements  
-
----
 
 # Impact
 
